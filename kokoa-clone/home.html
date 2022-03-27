@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>this is the wepsite</title>
+    <meta charset="uft-8" />
+    <meta name="description" content="this is wepsite" />
+    <link rel="shortcut icon" href="새폴더/이미지 1.jfif" />
+    <style>
+      body {
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+
+      @media screen and (min-width: 601x) and (max-width: 1200px) and (orientation: landscape) {
+        div {
+          background-color: wheat;
+        }
+      }
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+      span {
+        font-size: 36px;
+      }
+      @media print {
+        body {
+          background-color: tomato;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div><span>please flip your phone</span></div>
+  </body>
+</html>

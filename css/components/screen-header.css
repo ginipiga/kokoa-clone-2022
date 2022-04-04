@@ -1,0 +1,31 @@
+.screen-header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}
+.screen-header__icons {
+  display: flex;
+}
+.screen-header__icons .nav__update__dot {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.screen-header__icons__dot {
+  position: relative;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: 15px;
+  bottom: 20px;
+}

@@ -1,6 +1,6 @@
 .status-bar {
 
-  top: 0;
+  top: -3px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -8,9 +8,16 @@
   padding: 5px 3px;
   position:fixed;
   z-index:2;
+
+
+}
+.status-bar__chat{
+  display:flex;
+  background-color:#abc1d1;
 }
 .status-bar__column {
   width: 33%;
+
 }
 .status-bar__column:first-child span {
   margin-right: 5px;

@@ -9,6 +9,8 @@
 
 .user-component__column{
   position:relative;
+  display:flex;
+
 }
 .user-component__avatar {
   width: 70px;
@@ -43,11 +45,14 @@
   color: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: flex-end;
-  position:fixed;
+  justify-content: flex-end;
+  position:relative;
+  bottom:40px
 }
 .user-component__time {
   margin-bottom: 5px;
   display: block;
+  margin-right:5px;
 }
 .user-component__text {
   align-items: flex-start;
